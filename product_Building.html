@@ -11,9 +11,12 @@
     <meta name="description" content="Inline validation is very easy to implement using the Architect Framework.">
     <meta name="msapplication-tap-highlight" content="no">
 
-    
+    <!-- GOOGLE FONT API -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <!-- CSS FILES -->
 <link href="./main.css" rel="stylesheet">
-<link href="./mine.css" rel="stylesheet">
+<link href="css/mine.css" rel="stylesheet">
 
 
 </head>
@@ -259,12 +262,14 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="lnr-picture text-danger">
+                                        <i class="pe-7s-culture icon-build">
                                         </i>
                                     </div>
-                                    <div>BUILDING COVER
+                                    <div class="build-head">
+                                        <h2> BUILDING COVER </h2>
                                         <div class="page-title-subheading">
-                                            
+                                            The purpose of this form is to provide  the comany with all the 
+                                            material information<br> that is likely to influence the assessment of your cover.  
                                         </div>
                                     </div>
                                 </div>
@@ -277,7 +282,7 @@
                                             <span class="btn-icon-wrapper pr-2 opacity-7">
                                                 <i class="fa fa-business-time fa-w-20"></i>
                                             </span>
-                                            Buttons
+                                            Help
                                         </button>
                                         <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
                                             <ul class="nav flex-column">
@@ -285,98 +290,228 @@
                                                     <a href="javascript:void(0);" class="nav-link">
                                                         <i class="nav-link-icon lnr-inbox"></i>
                                                         <span>
-                                                            Inbox
+                                                            Request A Callback
                                                         </span>
-                                                        <div class="ml-auto badge badge-pill badge-secondary">86</div>
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a href="javascript:void(0);" class="nav-link">
                                                         <i class="nav-link-icon lnr-book"></i>
                                                         <span>
-                                                            Book
+                                                            Live chat
                                                         </span>
                                                         <div class="ml-auto badge badge-pill badge-danger">5</div>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="javascript:void(0);" class="nav-link">
-                                                        <i class="nav-link-icon lnr-picture"></i>
-                                                        <span>
-                                                            Picture
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a disabled href="javascript:void(0);" class="nav-link disabled">
-                                                        <i class="nav-link-icon lnr-file-empty"></i>
-                                                        <span>
-                                                            File Disabled
-                                                        </span>
                                                     </a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                </div>    </div>
+                                </div>   
+                                </div>
                         </div>            
                         
                         <div class="main-card mb-3 card">
-                            <div class="card-body">
-                                <h5 class="card-title">Bootstrap 4 Form Validation</h5>
+                            <div class="card-body build-h5">
+                                <h5 class="card-title">Kindly fill the following information</h5><br>
                                 <form class="needs-validation" novalidate>
-                                    <div class="form-row">
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationCustom01">First name</label>
-                                            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
-                                            <div class="valid-feedback">
-                                                Looks good!
+                                    <div class="form-row  ">
+                                        <ol class="cont-li ">
+                                            <li>Of what materials is the dwelling constructed?
+                                            <div class="position-relative form-check">
+                                                <label class="form-check-label">
+                                                    <input name="radio1" type="radio" class="form-check-input"> Wall
+                                                </label>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationCustom02">Last name</label>
-                                            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
-                                            <div class="valid-feedback">
-                                                Looks good!
+                                            <div class="position-relative form-check">
+                                                <label class="form-check-label">
+                                                    <input name="radio2" type="radio" class="form-check-input"> Roof
+                                                </label>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationCustomUsername">Username</label>
-                                            <div class="input-group">
-                                                <!-- <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                                </div> -->
-                                                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-                                                <div class="invalid-feedback">
-                                                    Please choose a username.
+                                            </li>
+
+                                            <li>Height of its Storey
+                                                <div class="col-md-5 col-sm-12 mb-3"><br>
+                                                    <input type="Number" class="form-control" id="validationCustom01"
+                                                        placeholder=""  required>
+                                                    <div class="valid-feedback">
+                                                        Looks good!
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
+                                            </li>
+
+                                            <li>How are the outbuilding (If any) constructed?
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio1" type="radio" class="form-check-input"> Wall
+                                                    </label>
+                                                </div>
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio2" type="radio" class="form-check-input"> Roof
+                                                    </label>
+                                                </div>
+                                            </li>
+
+                                            <li>Is any business, profession or trade carried on in any portion of the premises of which the dwelling forms a part?<br>
+                                                If so, give particulars.
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                    </label>
+                                                </div>
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                    </label>
+                                                </div>
+                                            </li>
+
+                                            <li>Is the dwelling :
+                                                <ul>
+                                                    <li>A private dwelling house?
+                                                        <div class="position-relative form-check">
+                                                            <label class="form-check-label">
+                                                                <input name="radio1" type="radio"
+                                                                    class="form-check-input"> Yes
+                                                            </label>
+                                                        </div>
+                                                        <div class="position-relative form-check">
+                                                            <label class="form-check-label">
+                                                                <input name="radio2" type="radio"
+                                                                    class="form-check-input"> No
+                                                            </label>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>A self contained flat with separate entrance exclusively under your control ?
+                                                        <div class="position-relative form-check">
+                                                            <label class="form-check-label">
+                                                                <input name="radio1" type="radio"
+                                                                    class="form-check-input"> Yes
+                                                            </label>
+                                                        </div>
+                                                        <div class="position-relative form-check">
+                                                            <label class="form-check-label">
+                                                                <input name="radio2" type="radio"
+                                                                    class="form-check-input"> No
+                                                            </label>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>Rooms not self contained
+                                                        <div class="position-relative form-check">
+                                                            <label class="form-check-label">
+                                                                <input name="radio1" type="radio"
+                                                                    class="form-check-input"> Yes
+                                                            </label>
+                                                        </div>
+                                                        <div class="position-relative form-check">
+                                                            <label class="form-check-label">
+                                                                <input name="radio2" type="radio"
+                                                                    class="form-check-input"> No
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li>Is the dwelling solely in your occupation?
+                                                (including your family and servant)
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                    </label>
+                                                </div>
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                    </label>
+                                                </div>
+                                            </li>
+
+                                            <li>If not solely in your own occupation, do you let Apartments or receive boarders?
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                    </label>
+                                                </div>
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                    </label>
+                                                </div>
+                                            </li>
+
+                                            <li>Will the dwelling be left withou an inhabitant for more than 7 consecutive days?<br>
+                                                If so, state extent
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                    </label>
+                                                </div>
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                    </label>
+                                                </div>
+                                            </li> 
+
+                                            <li>Will the dwelling be left without an inhabitant for more than 30 consecutive days?<br>
+                                                If so, state extent
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                    </label>
+                                                </div>
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                    </label>
+                                                </div>
+                                            </li>
+
+                                            <li>Are the building in a good state of repair and will they be so maintained?
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                    </label>
+                                                </div>
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                    </label>
+                                                </div>
+                                            </li>
+
+                                            <li>Do you have a burgal proof doors/windows?<br>
+                                                If so give details
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                    </label>
+                                                </div>
+                                                <div class="position-relative form-check">
+                                                    <label class="form-check-label">
+                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                    </label>
+                                                </div>
+                                            </li>
+
+                                            <li>What other security arrangement do you have in place(e.g Guards/ alarm, etc)
+                                                <div class="col-md-5 col-sm-12 mb-3"><br>
+                                                    <input type="text" class="form-control" id="validationCustom01"
+                                                        placeholder="" required>
+                                                    <div class="valid-feedback">
+                                                        Looks good!
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        
+                                        </ol>
                                     </div>
-                                    <div class="form-row">
-                                        <div class="col-md-6 mb-3">
-                                            <label for="validationCustom03">City</label>
-                                            <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-                                            <div class="invalid-feedback">
-                                                Please provide a valid city.
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 mb-3">
-                                            <label for="validationCustom04">State</label>
-                                            <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-                                            <div class="invalid-feedback">
-                                                Please provide a valid state.
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 mb-3">
-                                            <label for="validationCustom05">Zip</label>
-                                            <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
-                                            <div class="invalid-feedback">
-                                                Please provide a valid zip.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
+
+                                    <!-- <div class="form-group">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                             <label class="form-check-label" for="invalidCheck">
@@ -386,7 +521,8 @@
                                                 You must agree before submitting.
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
+
                                     <button class="btn btn-primary" type="submit">Submit form</button>
                                 </form>
             
