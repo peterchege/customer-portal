@@ -11,7 +11,7 @@
     });
 
 
-    // QUESTION SIX
+    // QUESTION SIX -this is the trigger to question 7
 
         $(function () {
             $('input[name="radio_dwell"]').on('click', function () {
@@ -22,3 +22,15 @@
                 }
             });
         });
+    
+    // QUESTION EIGHT
+
+    $(function () {
+        $('input[name="radio_30"]').on('click', function () {
+            if ($(this).val() == 'yes') {
+                $('#textboxes1').show();
+            } else {
+                $('#textboxes1').hide();
+            }
+        });
+    });
