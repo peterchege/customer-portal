@@ -18,6 +18,8 @@
 <link href="./main.css" rel="stylesheet">
 <link href="css/mine.css" rel="stylesheet">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 </head>
 <body>
@@ -404,51 +406,26 @@
                                                         </div>
                                                 </div>
 
-                                                <!-- <script>
-                                                    function myFunction_textfield() {
-                                                        // if (radio_field.clicked == true) {
-                                                        //     document.getElementById("display_field").style.display ="block";
-                                                        // } else {
-                                                        //     document.getElementById("display_field").style.display ="none";
-                                                        // }
-                                                            document.getElementById("display_field").style.display ="block";
-                                                    }
-                                                </script> -->
-
-
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
-                                                        <input name="rad" type="radio" class="form-check-input" value="No"> No
+                                                        <input name="rad" type="radio" class="form-check-input" value="No">No
                                                     </label>
                                                 </div>
                                             </li>
 
-                                            <script>
-                                                $(function () {
-                                                    $('input[name="rad"]').on('click', function () {
-                                                        if ($(this).val() == 'yes') {
-                                                            $('#textboxes').show();
-                                                        } else {
-                                                            $('#textboxes').hide();
-                                                        }
-                                                    });
-                                                });
-                                            </script>
-
-
-
                                             <li>Is the dwelling :
+
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label"><br>
                                                         <input name="radio" type="radio" class="form-check-input"> 
-                                                            A private dwelling house?
+                                                            A private dwelling house
                                                     </label>
                                                 </div>
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
                                                         <input name="radio" type="radio" class="form-check-input"> 
                                                         A self contained flat with separate entrance exclusively under
-                                                        your control ?
+                                                        your control 
                                                     </label>
                                                 </div>
                                                 <div class="position-relative form-check">
@@ -457,54 +434,7 @@
                                                         Rooms not self contained
                                                     </label>
                                                 </div>
-
-                                                <!-- <ul>
-                                                    <li>A private dwelling house?
-                                                        <div class="position-relative form-check">
-                                                            <label class="form-check-label">
-                                                                <input name="radio" type="radio"
-                                                                    class="form-check-input"> A private dwelling house?
-                                                            </label>
-                                                            
-                                                        </div>
-                                                        <div class="position-relative form-check">
-                                                            <label class="form-check-label">
-                                                                <input name="radio" type="radio"
-                                                                    class="form-check-input"> No
-                                                            </label>
-                                                        </div>
-                                                    </li>
-
-                                                    <li>A self contained flat with separate entrance exclusively under your control ?
-                                                        <div class="position-relative form-check">
-                                                            <label class="form-check-label">
-                                                                <input name="radio1" type="radio"
-                                                                    class="form-check-input"> Yes
-                                                            </label>
-                                                        </div>
-                                                        <div class="position-relative form-check">
-                                                            <label class="form-check-label">
-                                                                <input name="radio2" type="radio"
-                                                                    class="form-check-input"> No
-                                                            </label>
-                                                        </div>
-                                                    </li>
-
-                                                    <li>Rooms not self contained
-                                                        <div class="position-relative form-check">
-                                                            <label class="form-check-label">
-                                                                <input name="radio1" type="radio"
-                                                                    class="form-check-input"> Yes
-                                                            </label>
-                                                        </div>
-                                                        <div class="position-relative form-check">
-                                                            <label class="form-check-label">
-                                                                <input name="radio2" type="radio"
-                                                                    class="form-check-input"> No
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                </ul> -->
+                                            
                                             </li>
 
                                             <li>Is the dwelling solely in your occupation?
@@ -521,15 +451,15 @@
                                                 </div>
                                             </li>
 
-                                            <li>If not solely in your own occupation, do you let Apartments or receive boarders?
+                                            <li id="occupation" style="display: none">If not solely in your own occupation, do you let Apartments or receive boarders?
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
-                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                        <input name="radio1" type="radio" class="form-check-input" value="Yes"> Yes
                                                     </label>
                                                 </div>
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
-                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                        <input name="radio2" type="radio" class="form-check-input" value="No"> No
                                                     </label>
                                                 </div>
                                             </li>
@@ -641,5 +571,10 @@
                 </div>
         </div>
     </div>
-<script type="text/javascript" src="./assets/scripts/main.js"></script></body>
+
+<script type="text/javascript" src="./assets/scripts/main.js"></script>
+<script type="text/javascript" src="js/mine.js"></script>
+
+
+</body>
 </html>
