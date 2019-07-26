@@ -59,4 +59,16 @@
         });
     });
 
+    // QUESTION TEN TEXTBOX
+
+    $(function () {
+        $('input[name="radio_proof"]').on('click', function () {
+            if ($(this).val() == 'yes') {
+                $('#textboxes3').show();
+            } else {
+                $('#textboxes3').hide();
+            }
+        });
+    });
+
 

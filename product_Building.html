@@ -511,26 +511,33 @@
                                             <li>Are the building in a good state of repair and will they be so maintained?
                                                 <div class="position-relative form-check"><br>
                                                     <label class="form-check-label">
-                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                        <input name="radio_maintain" type="radio" class="form-check-input"> Yes
                                                     </label>
                                                 </div>
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
-                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                        <input name="radio_maintain" type="radio" class="form-check-input"> No
                                                     </label>
                                                 </div>
                                             </li>
 
-                                            <li>Do you have a burgal proof doors/windows?<br>
-                                                If so give details
+                                            <li>Do you have a burgal proof doors/windows?
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
-                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                        <input name="radio_proof" type="radio" class="form-check-input" value="yes"> Yes
                                                     </label>
+                                                    <!-- textbox display -->
+                                                    <div class="col-md-12 col-sm-12 mb-3" style="display: none;"
+                                                        id="textboxes3"><br>
+                                                        <label> If so give details</label>
+                                                        <textarea class="form-control" id="display_field" rows="3">
+                                                        </textarea>
+                                                    </div>
                                                 </div>
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
-                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                        <input name="radio_proof" type="radio" class="form-check-input">
+                                                        No
                                                     </label>
                                                 </div>
                                             </li>
