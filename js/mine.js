@@ -124,3 +124,15 @@
             }
         });
     });
+
+// Question TWO
+
+$(function () {
+    $('input[name="radio_loss"]').on('click', function () {
+        if ($(this).val() == 'yes') {
+            $('#textboxes8').show();
+        } else {
+            $('#textboxes8').hide();
+        }
+    });
+});
