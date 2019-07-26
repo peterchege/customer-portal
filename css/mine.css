@@ -94,3 +94,28 @@
 .cal-up{
     padding-bottom: 5%;
 }
+
+.cont-row{
+    margin: 5% auto;
+}
+
+.cont-row label {
+    color: #0C4DA2;
+    font-family: 'Oswald',
+        sans-serif;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.space-bt{
+    border-radius: 20px;
+    font-family: 'Oswald',
+    sans-serif;
+    padding: 10px 25px;
+    font-size: 12px;
+    margin-top: 40px;
+    background-color: rgb(110, 110, 110);
+    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+}
