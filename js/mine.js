@@ -1,3 +1,6 @@
+
+        // BUILDING AND CONTENTS FORM
+
     // Question four
 
     $(function () {
@@ -72,3 +75,52 @@
     });
 
 
+    // GENERAL INFORMAION FORM
+    
+    // Question One A
+
+    $(function () {
+        $('input[name="radio_decline"]').on('click', function () {
+            if ($(this).val() == 'yes') {
+                $('#textboxes4').show();
+            } else {
+                $('#textboxes4').hide();
+            }
+        });
+    });
+
+     // Question One B
+
+    $(function () {
+        $('input[name="radio_special"]').on('click', function () {
+            if ($(this).val() == 'yes') {
+                $('#textboxes5').show();
+            } else {
+                $('#textboxes5').hide();
+            }
+        });
+    });
+
+    // Question One C
+
+    $(function () {
+        $('input[name="radio_cancelled"]').on('click', function () {
+            if ($(this).val() == 'yes') {
+                $('#textboxes6').show();
+            } else {
+                $('#textboxes6').hide();
+            }
+        });
+    });
+
+    // Question One D
+
+    $(function () {
+        $('input[name="radio_increase"]').on('click', function () {
+            if ($(this).val() == 'yes') {
+                $('#textboxes7').show();
+            } else {
+                $('#textboxes7').hide();
+            }
+        });
+    });

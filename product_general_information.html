@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>RISK INFORMATION</title>
+    <title>GENERAL INFORMATION</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="Inline validation is very easy to implement using the Architect Framework.">
     <meta name="msapplication-tap-highlight" content="no">
 
-    <!-- GOOGLE FONT API -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<!-- GOOGLE FONT API -->
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
-    <!-- CSS FILES -->
+<!-- CSS FILES -->
 <link href="./main.css" rel="stylesheet">
 <link href="css/mine.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 </head>
@@ -321,13 +323,20 @@
                                                     <li>Decline to insure you
                                                         <div class="position-relative form-check">
                                                             <label class="form-check-label">
-                                                                <input name="radio1" type="radio"
-                                                                    class="form-check-input"> Yes
+                                                                <input name="radio_decline" type="radio"
+                                                                    class="form-check-input" value="yes"> Yes
                                                             </label>
+                                                            <!-- textbox display -->
+                                                            <div class="col-md-12 col-sm-12 mb-3" style="display: none;"
+                                                                id="textboxes4"><br>
+                                                                <label> If so give details</label>
+                                                                <textarea class="form-control" id="display_field" rows="3">
+                                                                </textarea>
+                                                            </div>
                                                         </div>
                                                         <div class="position-relative form-check">
                                                             <label class="form-check-label">
-                                                                <input name="radio2" type="radio"
+                                                                <input name="radio_decline" type="radio"
                                                                     class="form-check-input"> No
                                                             </label>
                                                         </div>
@@ -336,13 +345,21 @@
                                                     <li>Required special terms to insure you?
                                                         <div class="position-relative form-check">
                                                             <label class="form-check-label">
-                                                                <input name="radio1" type="radio"
-                                                                    class="form-check-input"> Yes
+                                                                <input name="radio_special" type="radio"
+                                                                    class="form-check-input" value="yes"> Yes
                                                             </label>
+                                                            <!-- textbox display -->
+                                                            <div class="col-md-12 col-sm-12 mb-3" style="display: none;"
+                                                                id="textboxes5"><br>
+                                                                <label> If so give details</label>
+                                                                <textarea class="form-control" id="display_field"
+                                                                    rows="3">
+                                                                </textarea>
+                                                            </div>
                                                         </div>
                                                         <div class="position-relative form-check">
                                                             <label class="form-check-label">
-                                                                <input name="radio2" type="radio"
+                                                                <input name="radio_special" type="radio"
                                                                     class="form-check-input"> No
                                                             </label>
                                                         </div>
@@ -351,13 +368,21 @@
                                                     <li>Cancellled or refused to renew your insurance?
                                                         <div class="position-relative form-check">
                                                             <label class="form-check-label">
-                                                                <input name="radio1" type="radio"
-                                                                    class="form-check-input"> Yes
+                                                                <input name="radio_cancelled" type="radio"
+                                                                    class="form-check-input" value="yes"> Yes
                                                             </label>
+                                                            <!-- textbox display -->
+                                                            <div class="col-md-12 col-sm-12 mb-3" style="display: none;"
+                                                                id="textboxes6"><br>
+                                                                <label> If so give details</label>
+                                                                <textarea class="form-control" id="display_field"
+                                                                    rows="3">
+                                                                </textarea>
+                                                            </div>
                                                         </div>
                                                         <div class="position-relative form-check">
                                                             <label class="form-check-label">
-                                                                <input name="radio2" type="radio"
+                                                                <input name="radio_cancelled" type="radio"
                                                                     class="form-check-input"> No
                                                             </label>
                                                         </div>
@@ -366,23 +391,23 @@
                                                     <li>Increased your premium on renewal?
                                                         <div class="position-relative form-check">
                                                             <label class="form-check-label">
-                                                                <input name="radio1" type="radio"
-                                                                    class="form-check-input"> Yes
+                                                                <input name="radio_increase" type="radio"
+                                                                    class="form-check-input" value="yes"> Yes
                                                             </label>
+                                                            <!-- textbox display -->
+                                                            <div class="col-md-12 col-sm-12 mb-3" style="display: none;"
+                                                                id="textboxes7"><br>
+                                                                <label> If so give full particulars</label>
+                                                                <textarea class="form-control" id="display_field"
+                                                                    rows="3">
+                                                                </textarea>
+                                                            </div>
                                                         </div>
                                                         <div class="position-relative form-check">
                                                             <label class="form-check-label">
-                                                                <input name="radio2" type="radio"
+                                                                <input name="radio_increase" type="radio"
                                                                     class="form-check-input"> No
                                                             </label>
-                                                        </div>
-                                                        If so give full particulars
-                                                        <div class="col-md-12 col-sm-12 mb-3"><br>
-                                                            <input type="text" class="form-control"
-                                                                id="validationCustom01" placeholder="" required>
-                                                            <div class="valid-feedback">
-                                                                Looks good!
-                                                            </div>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -459,5 +484,8 @@
                 </div>
         </div>
     </div>
-<script type="text/javascript" src="./assets/scripts/main.js"></script></body>
+
+<script type="text/javascript" src="./assets/scripts/main.js"></script>
+<script type="text/javascript" src="js/mine.js"></script>
+</body>
 </html>
