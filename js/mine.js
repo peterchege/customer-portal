@@ -15,7 +15,7 @@
 
         $(function () {
             $('input[name="radio_dwell"]').on('click', function () {
-                if ($(this).val() == 'yes') {
+                if ($(this).val() == 'no') {
                     $('#occupation').show();
                 } else {
                     $('#occupation').hide();
