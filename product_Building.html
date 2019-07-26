@@ -471,7 +471,7 @@
                                                     </label>
 
                                                     <!-- textbox display -->
-                                                    <div class="col-md-12 col-sm-12 mb-3" style="display: ;"
+                                                    <div class="col-md-12 col-sm-12 mb-3" style="display:none;"
                                                         id="textboxes1"><br>
                                                         <label>If so, give particulars.</label>
                                                         <textarea class="form-control" id="display_field" rows="3">
@@ -481,18 +481,19 @@
 
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
-                                                        <input name="radio_30" type="radio" class="form-check-input"> No
+                                                        <input name="radio_30" type="radio" class="form-check-input"  value="no"> No
                                                     </label>
                                                 </div>
                                             </li> 
 
-                                            <li>Will the dwelling be left without an inhabitant for more than 7 consecutive days?<br>
+                                            <li id="inhabit" style="display: none">Will the dwelling be left without
+                                                an inhabitant for more than 7 consecutive days?<br>
                                                 <div class="position-relative form-check"><br>
                                                     <label class="form-check-label">
-                                                        <input name="radio1" type="radio" class="form-check-input"> Yes
+                                                        <input name="radio_sev" type="radio" class="form-check-input"> Yes
                                                     </label>
                                                     <!-- textbox display -->
-                                                    <div class="col-md-12 col-sm-12 mb-3" style="display: ;"
+                                                    <div class="col-md-12 col-sm-12 mb-3" style="display: none;"
                                                         id="textboxes1"><br>
                                                         <label>If so, give particulars.</label>
                                                         <textarea class="form-control" id="display_field" rows="3">
@@ -501,7 +502,8 @@
                                                 </div>
                                                 <div class="position-relative form-check">
                                                     <label class="form-check-label">
-                                                        <input name="radio2" type="radio" class="form-check-input"> No
+                                                        <input name="radio_sev" type="radio" class="form-check-input">
+                                                        No
                                                     </label>
                                                 </div>
                                             </li>

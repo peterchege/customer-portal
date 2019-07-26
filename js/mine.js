@@ -37,6 +37,14 @@
 
     // QUESTION EIGHT NO - to trigger nine
 
-    
+    $(function () {
+        $('input[name="radio_30"]').on('click', function () {
+            if ($(this).val() == 'no') {
+                $('#inhabit').show();
+            } else {
+                $('#inhabit').hide();
+            }
+        });
+    });
 
 
