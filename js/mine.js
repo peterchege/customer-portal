@@ -47,4 +47,16 @@
         });
     });
 
+    // QUESTION NINE TEXTBOX
+
+    $(function () {
+        $('input[name="radio_sev"]').on('click', function () {
+            if ($(this).val() == 'yes') {
+                $('#textboxes2').show();
+            } else {
+                $('#textboxes2').hide();
+            }
+        });
+    });
+
 
