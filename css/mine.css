@@ -76,3 +76,21 @@
     -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
     box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
 }
+
+/* BUILDING COVER */
+
+.cont-val{
+    margin: 5% auto 0 auto;
+}
+
+.cont-val label{
+    color: #0C4DA2;
+    font-family: 'Oswald',
+    sans-serif;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.cal-up{
+    padding-bottom: 5%;
+}
