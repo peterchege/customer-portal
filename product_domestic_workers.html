@@ -322,36 +322,40 @@
                                 
                                 <form class="needs-validation" novalidate>
                                     <div class="form-row container">
-                                        <div class="col-3 cont-row">
-                                            <label>Employee</label>
-                                            <select name="select" id="exampleSelect" class="form-control">
-                                                <option selected disabled>Choose..</option>
-                                                <option>Indoor Staff</option>
-                                                <option>Gardener</option>
-                                                <option>Stablemen</option>
-                                                <option>Chauffeurs</option>
-                                                <option>Watchmen</option>
-                                            </select>
+                                            <div class="col-4 cont-row">
+                                            <label>Employee</label><br>
+                                            <div class="col-md-4">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <p>Indoor Staff</p>
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <p>Gardener</p>
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <p>Stablemen</p>
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <p>Chauffeurs</p>
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <p>Watchmen</p>
+                                            </div>
                                             <div class="invalid-feedback">
                                                 Please Choose a worker
                                             </div>
                                         </div>
 
-                                        <div class="col-3 cont-row">
+                                        <div class="col-1 cont-row">
+                                                <label>No. </label>
+                                                <input type="number" class="form-control" id="validationCustom02"
+                                                    placeholder="" value="" required>
+                                                <div class="invalid-feedback">
+                                                    Please provide the serial Number of the item
+                                                </div>
+                                        </div>
+
+                                        <div class="col-md-3 cont-row">
                                             <label>Salary (Kshs)</label>
                                             <input type="number" class="form-control" id="validationCustom02"
                                                 placeholder="" value="" required>
                                             <div class="invalid-feedback">
                                                 Please provide the model of the item
-                                            </div>
-                                        </div>
-
-                                        <div class="col-1 cont-row">
-                                            <label>No. </label>
-                                            <input type="number" class="form-control" id="validationCustom02"
-                                                placeholder="" value="" required>
-                                            <div class="invalid-feedback">
-                                                Please provide the serial Number of the item
                                             </div>
                                         </div>
 
@@ -364,14 +368,10 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-1 cont-row">
-                                                <button class="btn btn-primary btn-mine space-bt" type="submit">Add</button>
-                                        </div>
-
                                     </div>
 
                                     <!-- TABLE -->
-                                    <div class="row container">
+                                    <!-- <div class="row container">
                                         <div class="col-lg-11 table-alg">
                                             <div class="main-card mb-3 card">
                                                 <div class="card-body">
@@ -431,7 +431,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <br>
                                     
                                     <div class="row">
