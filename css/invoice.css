@@ -1,0 +1,40 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
+.col-logo img{
+    width: 20%;
+
+}
+
+.badge-status h2{
+    color: #0C4DA2;
+    font-family: 'Oswald',
+    sans-serif;
+    font-size: 18px;
+    float: right;
+    padding-right: 40px;
+    margin-left: -30%;
+    margin-bottom: 10%;
+}
+
+.badge-status .badge {
+    float: right;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+}
