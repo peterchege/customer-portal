@@ -49,3 +49,25 @@
     padding-top: 2%;
 }
 
+.invoce-style{
+    padding-left: 3%;
+    font-size: 15px;
+    color: #0C4DA2;
+    font-family: 'Oswald',
+    sans-serif;
+    
+}
+
+.invoce-style h3{
+    padding-bottom: 10px;
+}
+
+.invoce-style p{
+    margin-top: -10px;
+    color: slategrey;
+    
+}
+
+.invoce-style small{
+    color: slategrey;
+}
