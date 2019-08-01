@@ -71,3 +71,29 @@
 .invoce-style small{
     color: slategrey;
 }
+
+/* TABLES IN SECTION */
+
+.table-algn{
+    margin: 2% auto;
+}
+
+.section-table thead th{
+    color: #0C4DA2;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+}
+
+.section-table tbody  {
+    color: slategrey;
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+}
