@@ -11,30 +11,41 @@
     font-family: trebuchet;
 }
 
-.col-logo img{
-    width: 20%;
-
+.col-logo{
+    padding-left: 5%;
 }
 
-.badge-status h2{
+.col-logo img{
+    width: 20%;
+}
+
+.apa-address address {
+    font-size: 15px;
     color: #0C4DA2;
     font-family: 'Oswald',
     sans-serif;
-    font-size: 18px;
+}
+
+.badge-status .badge,
+.badge-status .apa-address address {
     float: right;
-    padding-right: 40px;
-    margin-left: -30%;
-    margin-bottom: 10%;
 }
 
 .badge-status .badge {
-    float: right;
     padding: 20px 40px;
     font-size: 18px;
     font-family: 'Trebuchet MS',
-    'Lucida Sans Unicode',
-    'Lucida Grande',
-    'Lucida Sans',
-    Arial,
-    sans-serif;
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    margin-left: -5%;
 }
+
+.badge-status .apa-address address{
+    clear: both;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
