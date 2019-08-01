@@ -97,3 +97,21 @@
         Arial,
         sans-serif;
 }
+
+.tax-style{
+    color: slategrey;
+    font-family: 'Oswald',
+    sans-serif;
+    font-size: 16px;
+    padding-left: 20%;
+}
+
+.tax-style ul{
+    list-style-type: none;
+}
+
+.total-amount{
+    color: #0C4DA2;
+    font-size: 20px;
+    font-weight: 700;
+}
