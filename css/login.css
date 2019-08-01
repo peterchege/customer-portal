@@ -18,6 +18,11 @@
     background-size: cover;
 }
 
+.img12 img{
+    width: 60%;
+    margin-top: -10px;
+}
+
 .back-register {
     width: 100%;
     background-image: url(../img/assurance.jpg);
