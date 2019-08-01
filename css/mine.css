@@ -12,6 +12,7 @@
 }
 
 
+
 .app-theme-white .header-color  {
     background-color: #0D345F;
     color: #fff;
@@ -52,6 +53,27 @@
     sans-serif;
     font-size: 18px;
 }
+
+/* NAVBAR LEFT */
+.app-sidebar__inner .app-sidebar__heading {
+    color: #0C4DA2;
+    font-family: 'Oswald',
+    sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.vertical-nav-menu li{
+    color: #0D345F;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+}
+
+/* END OF NAVBAR */
 
 .cont-li li{
     font-size: 16px;
